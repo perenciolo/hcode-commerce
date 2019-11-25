@@ -1,0 +1,3 @@
+vendor/*
+!vendor/perenciolo/
+node_modules

@@ -1,5 +1,6 @@
 {
   "name": "perenciolo/hcode-commerce",
+  "description": "E-commerce Store",
   "authors": [
     {
       "name": "Gustavo Perenciolo",
@@ -13,7 +14,7 @@
   },
   "autoload": {
     "psr-4": {
-      "": "vendor\\perenciolo\\php-classes\\src"
+      "Perenciolo\\": "vendor\\perenciolo\\php-classes\\src"
     }
   }
 }
