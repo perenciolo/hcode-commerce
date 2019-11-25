@@ -1,17 +1,17 @@
 <?php
 
+use \Slim\Slim;
+use \Perenciolo\Page;
+
 require_once __DIR__ . '/../vendor/autoload.php';
 
-$app = new \Slim\Slim();
+$app = new Slim();
 
 $app->config('debug', true);
 
 $app->get('/', function(){
-  $sql = new Perenciolo\DB\Sql();
-
-  $results = $sql->select("SELECT * FROM tb_users");
-
-  echo json_encode($results);
+  $page = new Page();
+  $page->setTpl("index");
 });
 
 $app->run();
