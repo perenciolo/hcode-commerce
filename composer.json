@@ -14,7 +14,7 @@
   },
   "autoload": {
     "psr-4": {
-      "Perenciolo\\": "vendor\\perenciolo\\php-classes\\src"
+      "Perenciolo\\": "src\\perenciolo\\php-classes\\src"
     }
   }
 }
